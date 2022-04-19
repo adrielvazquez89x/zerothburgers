@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zeroth Burgers</title>
+        <link rel="icon" href="./images/faviconprovisorio.gif">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./assets/css/normalize.css">
+        <link rel="stylesheet" href="./assets/css/hover.css">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    </head>
+
+
+<body>
+    
+        <header>
+            <nav class="nav-bar"> <!--Navigation Bar Start-->
+    
+                    <div class="container-logo"> <!--Logo-->
+                        <a href="index.html"> 
+                            <img src="./assets/images/logo5blanco.gif" alt="logo">
+                        </a>  
+                    </div> <!--End Logo-->
+                    
+                    <div class="nav-container">   <!--Menu start-->
+                        <ul class="nav-menu">    
+                            <li><a href="index.html">Inicio</a></li>        
+                            <li><a href="promociones.html">Promociones</a> </li>
+                            <li><a href="menu.html">Menu</a> 
+                                <ul class="submenu">
+                                    <li>carne</li>
+                                    <li>pollo</li>
+                                    <li>Helados</li>
+                                </ul>
+                            </li>
+                            <li><a href="contacto.html">Contacto</a>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="#">Delivery</a></li>
+                        
+                        </ul>  
+                    </div> <!-- Menu end-->
+                    <!--Social Media-->
+                    <div class="social-container">
+                        <a href="https://www.facebook.com">
+                            <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="35" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com">
+                            <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="35" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="4" y="4" width="16" height="16" rx="4" />
+                                <circle cx="12" cy="12" r="3" />
+                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                            </svg>
+                        </a> 
+                    </div>       <!-- Social Media end-->
+            </nav> <!--End nav bar-->
+        </header>  
+    <main>
+            <h1>Contactanos!</h1>
+            
+            <Form class="form">
+                <Fieldset> <legend><h2>Formulario</h2></legend>
+                    <div class="field">
+                        <label for="nombre"></label>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="field">
+                        <label for="email"></label>
+                        <input type="email" placeholder="E-mail">   
+                    </div>
+                    <div class="field">
+                        <label for="telefono"></label>
+                        <input type="tel" placeholder="Teléfono">
+                    </div>
+                    <p>¿Qué querías decirnos?</p>
+                    <div>
+                        <label for="Motivo">Sugerencia</label>
+                        <input type="radio" name="Motivo">
+                        <label for="Motivo">Empleo</label>
+                        <input type="radio" name="Motivo">
+                        <label for="Motivo">Consulta</label>
+                        <input type="radio" name="Motivo"> <br>
+                    </div>
+                    
+                    <textarea name="mensaje"id="" cols="30" rows="10"></textarea>
+                    <input class="button submit " type="submit">
+                 </Fieldset>    
+            </Form>
+
+            <div id="gmap" style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Calle%20Falsa%20123+(Zeroth%20Burgers)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe></div>
+            
+    </main> 
+
+    <Footer>
+        <div class="footer-container"> 
+                <div class="footer-logo"> 
+                    <a href="index.html"> <!--Logo-->
+                        <h2>ZEROTH<br>BURGERS</h2>
+                    </a>                
+                </div>   <!--End Logo-->
+
+                <div class="footer-info">   
+                    <h3>Dónde estamos</h3>       
+                    <ul> 
+                        <li><a href="/contacto.html#gmap">Calle Falsa 123, Springfield.</a></li>    <!--ubicacion-->
+                        <li>Teléfono: 1122334455</li>
+                        <li>zerothburgers@zerothburgers.com</li>
+                        
+                    </ul>
+                </div> 
+                <div>
+                    <h3>Horarios</h3>
+                    <ul>
+                        <li>Lunes a viernes de 19:30hs a 00:00hs</li>
+                        <li>Sábados y domingos de 11:30hs a 15:00 <br> <br> y de 19:30hs a 00:00hs </li>
+                    </ul>
+                    
+                </div>
+                
+        </div>
+        
+        <div class="coso">
+            <div class="copyright"> <!-- Contenido Copyright-->
+                <p> <span>ZEROTH BURGERS</span> ,Todos los derechos reservados, 2022.</p>
+                    
+                    <div class="social-container"> <!--Social Media-->
+                        <a href="https://www.facebook.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="25" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#333b41" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="25" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#333b41" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="4" y="4" width="16" height="16" rx="4" />
+                                <circle cx="12" cy="12" r="3" />
+                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                            </svg>
+                        </a> 
+                    </div> <!-- Social Media end-->
+                </div>
+        </div>
+
+
+    </Footer>
+
+        <a href="https://wa.me/########" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+</body>
+</html>
