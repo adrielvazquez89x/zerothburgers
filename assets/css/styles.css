@@ -9,6 +9,7 @@
 
 /* General - Global */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -176,11 +177,22 @@ ul li:hover ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    animation-name: entrada;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
 
-
-
-
+@keyframes entrada {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+   
+}
 
 .promo {
     margin: 25px;
@@ -246,8 +258,6 @@ ul li:hover ul {
     
 }
 
-
-
 .form fieldset {
     border: none;
     text-align: center;
@@ -258,12 +268,24 @@ ul li:hover ul {
 }
 
 .field input {
- 
+
+    outline: none;
+    border: 0.5px solid;
+    border-color: var(--secondarycolor);
     padding-left: 15px;
     width:  100%;
     height: 30px;
     margin: 10px 0;
 }
+
+
+.field input:focus {
+    border-style: none;
+    height: 38px;
+    transition: 270ms;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
 
 .form p {
     margin: 20px;
@@ -273,6 +295,13 @@ ul li:hover ul {
 .form textarea {
     width: 100%;
     margin-top: 10px;
+}
+
+.form textarea:focus {
+    outline: none;
+    border-style: none;
+    transition: 270ms;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 .submit {
