@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/hover.css">
         <link rel="stylesheet" href="./assets/css/styles.css">
@@ -20,49 +20,24 @@
 
     <body>
             <header>
-                <nav class="nav-bar"> <!--Navigation Bar Start-->
-
-                        <div class="container-logo"> <!--Logo-->
-                            <a href="index.html"> 
-                                <img src="./assets/images/logo5blanco.gif" alt="logo">
-                            </a>  
-                        </div> <!--End Logo-->
-                        
-                        <div class="nav-container">   <!--Menu start-->
-                            <ul class="nav-menu">    
-                                <li class="hvr-fade"><a class="hvr-fade" href="index.html">Inicio</a></li>        
-                                <li class="hvr-fade"><a href="promociones.html">Promociones</a> </li>
-                                <li class="hvr-fade"><a href="menu.html">Menu</a> 
-                                    <ul class="submenu">
-                                        <li>carne</li>
-                                        <li>pollo</li>
-                                        <li>Helados</li>
-                                    </ul>
-                                </li>
-                                <li class="hvr-fade"><a href="contacto.html">Contacto</a>
-                                <li class="hvr-fade"><a href="nosotros.html">Nosotros</a></li>
-                                <li class="hvr-fade"><a href="#">Delivery</a></li>
-                            
-                            </ul>  
-                        </div> <!-- Menu end-->
-                        <!--Social Media-->
-                        <div class="social-container">
-                            <a href="https://www.facebook.com">
-                                <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="35" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                                </svg>
-                            </a>
-                            <a href="https://www.instagram.com">
-                                <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="35" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <rect x="4" y="4" width="16" height="16" rx="4" />
-                                    <circle cx="12" cy="12" r="3" />
-                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                                </svg>
-                            </a> 
-                        </div>       <!-- Social Media end-->
-                </nav> <!--End nav bar-->
+                <nav class="navbar navbar-expand-lg navbar-light nav-bar">
+                    <div class="container-fluid">
+                      <div class="container-logo">
+                          <img src="./assets/images/logo5blanco.gif" alt="">
+                      </div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link" href="#">Features</a>
+                          <a class="nav-link" href="#">Pricing</a>
+                          <a class="nav-link disabled">Disabled</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
             </header>  
             <main>
               
@@ -134,7 +109,7 @@
 
 
             </Footer>
-        
-                <a href="https://wa.me/########" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+            <a href="https://wa.me/########" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>     </body>
      </body>
 </html>

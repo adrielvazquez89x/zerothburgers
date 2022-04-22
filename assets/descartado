@@ -1,0 +1,56 @@
+                <nav class="nav-bar"> <!--Navigation Bar Start-->
+
+                        <div class="container-logo"> <!--Logo-->
+                            <a href="index.html"> 
+                                <img src="./assets/images/logo5blanco.gif" alt="logo">
+                            </a>  
+                        </div> <!--End Logo-->
+                        <!--Menu start-->
+                        <div class="nav-container">   
+                            <ul class="nav-menu">    
+                                <li class="hvr-fade"><a class="hvr-fade" href="index.html">Inicio</a></li>        
+                                <li class="hvr-fade"><a href="promociones.html">Promociones</a> </li>
+                                <li class="hvr-fade"><a href="menu.html">Menu</a> 
+                                    <ul class="submenu">
+                                        <li>carne</li>
+                                        <li>pollo</li>
+                                        <li>Helados</li>
+                                    </ul>
+                                </li>
+                                <li class="hvr-fade"><a href="contacto.html">Contacto</a>
+                                <li class="hvr-fade"><a href="nosotros.html">Nosotros</a></li>
+                                <li class="hvr-fade"><a href="#">Delivery</a></li>
+                            
+                            </ul>  
+                        </div> <!-- Menu end-->
+                        <!--Social Media-->
+                        <div class="social-container">
+                            <a href="https://www.facebook.com">
+                                <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="35" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com">
+                                <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="35" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                                    <circle cx="12" cy="12" r="3" />
+                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                                </svg>
+                            </a> 
+                        </div>       <!-- Social Media end-->
+                </nav> <!--End nav bar-->
+
+
+
+                .nav-menu li {
+
+                    display: inline-block;
+                    padding: 10px 25px;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    font-weight: bold;
+                    border-radius:  6px;
+                
+                }                
