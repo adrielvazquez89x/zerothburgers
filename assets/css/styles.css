@@ -13,15 +13,18 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 html {
     color: var(--white);
-    font-family: var(--fontmain);
+
+
 }   
 
 body {
     background-color: var(--secondarycolor);
+    font-family: var(--fontmain);
 }
 
 
@@ -33,6 +36,7 @@ h1 {
 h1, h2, h3 {
                 color: var(--white);
                 text-transform: uppercase;
+                font-weight: bold;
 }
 
 
@@ -215,6 +219,9 @@ ul li:hover ul {
     border-radius:  50%;
     margin: 25px;
 
+}
+.promo p {
+    color: var(--white);
 }
 
 
@@ -454,7 +461,7 @@ footer {
     /* Contact */
 
     .formu {
-        width: 600px;
+        width: 50rem;
 
     }
 
