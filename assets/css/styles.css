@@ -77,6 +77,12 @@ span {
   .whatsapp-icon {
     margin-top: 10px;
   }
+.white {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;
+}
+
 
 /* Navigation */
    
@@ -84,6 +90,12 @@ span {
     background-color: var(--principalcolor);
  
 }
+
+.nav-link{
+    color: var(--white);
+}
+
+
                              /* Logo */
 .container-logo {
     display: flex;
@@ -110,8 +122,6 @@ span {
     border-radius:  6px;
 
 }
-
-
 
 .submenu {
     display: none;
@@ -244,7 +254,7 @@ ul li:hover ul {
 
 /* Contacto */
 
-.form {
+.formu {
     border-radius: 50px;
     display: flex;
     margin: auto;
@@ -255,12 +265,12 @@ ul li:hover ul {
     
 }
 
-.form fieldset {
+.formu fieldset {
     border: none;
     text-align: center;
     width:  100%;
 }
-.form h2 {
+.formu h2 {
     color: var(--principaldarker);
 }
 
@@ -284,17 +294,17 @@ ul li:hover ul {
 }
 
 
-.form p {
+.formu p {
     margin: 20px;
     font-size: large;
 }
 
-.form textarea {
+.formu textarea {
     width: 100%;
     margin-top: 10px;
 }
 
-.form textarea:focus {
+.formu textarea:focus {
     outline: none;
     border-style: none;
     transition: 270ms;
@@ -443,7 +453,7 @@ footer {
 
     /* Contact */
 
-    .form {
+    .formu {
         width: 600px;
 
     }
