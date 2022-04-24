@@ -43,7 +43,7 @@
                 </nav> <!--End nav bar-->
 
 
-
+                <a class="button center hvr-grow-shadow" href="menu.html">Ver todo el menu</a>
 css
 
 :root {
