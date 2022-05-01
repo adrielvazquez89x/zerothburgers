@@ -45,7 +45,6 @@ span {
 }
 
 .button {
-    
     background-image: radial-gradient(circle, #de6514, #d25d10, #c6560c, #ba4e08, #ae4705);    padding: 20px;
     box-shadow: 0px 8px 19px -4px rgba(0,0,0,0.62);
     margin:  10px;
