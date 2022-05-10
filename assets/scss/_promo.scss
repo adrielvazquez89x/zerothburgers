@@ -1,0 +1,42 @@
+/* Promo */
+
+.promo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    animation-name: entrada;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes entrada {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+   
+}
+
+.promo {
+    margin: 25px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        border-radius:  50%;
+        margin: 25px;
+    
+    }
+
+    p {
+        color: $white;
+    }
+}

@@ -1,0 +1,15 @@
+.button {
+    background-image: map-get($button , back-color);
+    padding: map-get($button , padding);
+    box-shadow: map-get($button , b-shadow );
+    margin:  map-get($button , margin );
+    border-radius: map-get($button , b-radius);
+    text-transform: map-get($button , upper );
+    font-weight: map-get($button, f-weight);
+}
+
+.button-form {
+    @extend .button;
+    border: none;
+    color: $white;
+}

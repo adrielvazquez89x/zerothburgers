@@ -1,0 +1,28 @@
+/* Navigation */
+
+.container-logo {
+    width: 20rem;
+
+    img {
+        max-width: 25%;
+    }
+}
+
+.navbar-light .navbar-nav
+ .nav-link {
+    @include font-prop  ($white, true, 1.1rem)
+    
+ }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    h2 {
+        @include font-prop ($white, true, 1.8rem);
+        transform: rotate(355deg);
+        
+    }
+}

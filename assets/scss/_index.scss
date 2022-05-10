@@ -1,0 +1,46 @@
+/* Index */
+
+
+.gallery {
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+ }
+
+.c-banner-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &:hover img {
+        filter: brightness(50%);
+    }
+
+    &:hover .info {
+        opacity: 1;
+    }
+  
+    img {
+        max-width: 90%;
+        border-radius: 2rem;
+        margin: 0.5rem;
+        transition: all 500ms;
+    }
+}
+
+.info {
+    opacity: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    position: absolute;
+    z-index: 1;
+    transition: all 500ms;
+
+    p {
+        @include font-prop ($white, false, 1.2rem)
+    }
+
+}
+

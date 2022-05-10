@@ -1,0 +1,13 @@
+@mixin font-prop ($color, $f-weight, $f-size) {
+    color: $color;
+
+    @if $f-weight == true {
+        font-weight: bold;
+    }
+    @else {
+        font-weight: normal;
+    }
+
+    font-size: $f-size;
+    
+}
