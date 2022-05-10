@@ -6,6 +6,7 @@
     border-radius: map-get($button , b-radius);
     text-transform: map-get($button , upper );
     font-weight: map-get($button, f-weight);
+    text-align: center;
 }
 
 .button-form {
