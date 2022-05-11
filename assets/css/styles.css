@@ -91,10 +91,11 @@ span {
 /* Site */
 /* Navigation */
 .container-logo {
-  width: 20rem;
+  width: 12rem;
+  padding-left: 5rem;
 }
 .container-logo img {
-  max-width: 25%;
+  max-width: 45%;
 }
 
 .navbar-light .navbar-nav .nav-link {
