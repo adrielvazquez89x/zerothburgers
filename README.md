@@ -4,7 +4,7 @@ Zeroth Burgers es un sitio web de una pyme ficticia cuya actividad es la producc
 
 Para la optimización del SEO realicé las siguientes modificaciones:
 
-- Agregué keywords relacionadas a la actividad del sito. Algunas de estas son por ej: Zeroh Burgers, hamburguesas, pollo frito delivery, Tigre, Nordelta entre otras.
+- Agregué keywords relacionadas a la actividad del sito. Algunas de estas son por ej: Zeroth Burgers, hamburguesas, pollo frito delivery, Tigre, Nordelta entre otras.
 - Agregué descripciones en cada página del sitio. 
 - Agregué títulos a cada página respetando el contenido de la misma.
 - Optimicé las imágenes reduciéndoles el peso sacrificando lo menos posible la calidad de estas.
