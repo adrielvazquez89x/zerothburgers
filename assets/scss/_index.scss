@@ -7,15 +7,20 @@
     background-size: cover;
     height: auto;
     margin-bottom: 1rem;
-}
 
-.zeroth2 {
-    padding: 2rem;
-
-    h1 {
-        color: $secondarycolor;
-        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
-
+    .zeroth1 {
+        background-color: rgba(245, 220, 182, 0.603);
+        height: 100%;
+        
+    }
+    .zeroth2 {
+        padding: 2rem;
+    
+        h1 {
+            color: $secondarycolor;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    
+        }
     }
 }
 
@@ -24,7 +29,8 @@
     height: 25rem;
     background-image: url(../images/news.jpg);
     background-size: cover;
-    background-position: center center;
+    background-attachment: fixed;
+    background-position: center;
     margin-bottom: 1rem;
 
     .news-box {
@@ -34,9 +40,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-
-          
-
+       
         p {
             @include font-prop ($principalcolor, false, 1.2rem);
             text-align: center;

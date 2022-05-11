@@ -14,6 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/hover.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -24,18 +25,20 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light main-color">
             <div class="container-fluid">
+                <div class="container-logo">
+                    <a class="logo" href="./index.html"><img src="./assets/images/logo_final.png" alt="ZEROTH BURGERS">
+                        <h2>ZEROTH <br> BURGERS</h2>
+                    </a>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="collapse navbar-collapse justify-content-evenly white" id="navbarNavAltMarkup">
                     <div class="navbar-nav align-items-center text-uppercase">
-                        <div class="container-logo">
-                            <a class="logo" href="./index.html"><img src="./assets/images/logo_final.png" alt="logo">
-                                <h2>ZEROTH <br> BURGERS</h2>
-                            </a>
-                        </div>
+
                         <a class="nav-link px-4 active" aria-current="page" href="./index.html">Inicio</a>
                         <a class="nav-link px-4" href="./pages/promociones.html">Promociones</a>
                         <a class="nav-link px-4" href="./pages/menu.html">Menu</a>
@@ -83,20 +86,20 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/BANNER.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/BANNER.jpg" class="d-block w-100" alt="Zeroth Burgers">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="shadowtxt">Si vas a romper algo, que sea tu dieta</h2>
                         <p class="shadowtxt lead">For Zeroth Burgers!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/BANNER2.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/BANNER2.jpg" class="d-block w-100" alt="Promociones">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="shadowtxt">Aprovechá nuestras promociones</h3>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/BANNER3.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/BANNER3.jpg" class="d-block w-100" alt="Experiencia Zeroth">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="shadowtxt">Conocé nuestras cocinas!</h3>
                         <p class="shadowtxt">Una experiencia inolvidable</p>
@@ -114,22 +117,25 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <section class="container-fluid zeroth shadowbox">
-            <div class="container zeroth2">
-                <h1>Somos <span>ZEROTH BURGERS</span></h1>
-                <p class="text-center">
-                    Hacemos hamburguesas... En realidad eso, ya lo sabias. De hecho gracias a tu apoyo logramos llevar a
-                    un nivel
-                    profesional lo que una vez nació como un emprendimiento hogareño producto de la pandemia. Fanáticos
-                    de las hamburguesas,
-                    los videojuegos y los Simpsons, pudimos combinar todo esto y ofrecerte algo que además de deleitar
-                    tus sentidos puedas
-                    compartir con tus seres queridos un momento único. Probablemente, este sea el único fragmento
-                    coherente y maduro que puedas
-                    encontrar en nuestro sitio. Pero madurar es para las frutas y nosotros somos <span>ZEROTH
-                        BURGERS</span>!
-                </p>
+        <section class="zeroth shadowbox">
+            <div class="zeroth1">
+                <div class="container zeroth2">
+                    <h1>Somos <span>ZEROTH BURGERS</span></h1>
+                    <p class="text-center">
+                        Hacemos hamburguesas... En realidad eso, ya lo sabias. De hecho gracias a tu apoyo logramos llevar a
+                        un nivel
+                        profesional lo que una vez nació como un emprendimiento hogareño producto de la pandemia. Fanáticos
+                        de las hamburguesas,
+                        los videojuegos y los Simpsons, pudimos combinar todo esto y ofrecerte algo que además de deleitar
+                        tus sentidos puedas
+                        compartir con tus seres queridos un momento único. Probablemente, este sea el único fragmento
+                        coherente y maduro que puedas
+                        encontrar en nuestro sitio. Pero madurar es para las frutas y nosotros somos <span>ZEROTH
+                            BURGERS</span>!
+                    </p>
+                </div>
             </div>
+
         </section>
         <div class="newsletter shadowbox">
             <div class="news-box">
@@ -150,7 +156,7 @@
                         <h3>gromster</h3>
                         <p>La favorita, la diet-slayer</p>
                     </div>
-                    <img src="./assets/images/index-grom.jpg" alt="">
+                    <img src="./assets/images/index-grom.jpg" alt="GROMSTER">
                 </div>
                 <div class="sm1">
                     <div class="c-top-index">
@@ -158,21 +164,20 @@
                             <h3>Un plan sólido</h3>
                             <p>Nuestra favorita</p>
                         </div>
-                        <img src="./assets/images/index-arthas.jpg" alt="">
+                        <img src="./assets/images/index-arthas.jpg" alt="Un plan sólido">
                     </div>
                     <div class="c-top-index">
                         <div class="info">
                             <h3>Pollo furioso</h3>
                             <p>Novedad!</p>
                         </div>
-                        <img src="./assets/images/index-pollo.jpg" alt="">
+                        <img src="./assets/images/index-pollo.jpg" alt="Pollo Furioso">
                     </div>
                 </div>
             </div>
             <a class="button centerr hvr-grow-shadow" href="./pages/menu.html">Ver todo el menu</a>
         </section>
-
-
+        <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     </main>
 
     <Footer>

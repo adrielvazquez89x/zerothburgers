@@ -70,6 +70,24 @@ span {
   color: #FFFFFF;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
 /* Site */
 /* Navigation */
 .container-logo {
@@ -106,11 +124,14 @@ span {
   height: auto;
   margin-bottom: 1rem;
 }
-
-.zeroth2 {
+.zeroth .zeroth1 {
+  background-color: rgba(245, 220, 182, 0.603);
+  height: 100%;
+}
+.zeroth .zeroth2 {
   padding: 2rem;
 }
-.zeroth2 h1 {
+.zeroth .zeroth2 h1 {
   color: #333b41;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
@@ -119,7 +140,8 @@ span {
   height: 25rem;
   background-image: url(../images/news.jpg);
   background-size: cover;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: center;
   margin-bottom: 1rem;
 }
 .newsletter .news-box {
