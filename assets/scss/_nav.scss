@@ -1,11 +1,28 @@
 /* Navigation */
 
+.navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+@media (min-width: 1000px) {
+    .navbar {
+        position: static;
+    }
+}
+
 .container-logo {
     width: 12rem;
-    padding-left: 5rem;
-
     img {
         max-width: 45%;
+    }
+}
+
+@media (min-width :768px) {
+    .container-logo {
+        padding-left: 2rem;
     }
 }
 
@@ -16,7 +33,6 @@
     &:hover, &:active {
         color: $secondarycolor;        
     }
-    
  }
 
  .active {
@@ -34,4 +50,9 @@
         transform: rotate(355deg);
         
     }
+}
+
+.social-container {
+    display:flex;
+    justify-content: center;
 }

@@ -2,7 +2,6 @@
 
 /* Foooter */
 
-
 footer {
     background-image: url(../images/footer.jpg);
     background-position: center;
@@ -46,6 +45,23 @@ footer {
 
 .footer-info a {
     color: $principaldarker;
+}
+
+@media (min-width :768px) {
+
+    .footer-container  {
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .gallery {
+        align-items: center;
+    }
+    .container-gallery {
+        display: flex;
+        gap: 0.5rem;
+    }
+
 }
 
     /* copy */

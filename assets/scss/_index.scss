@@ -1,4 +1,13 @@
 /* Index */
+.carousel-mar {
+    padding-top: 5.9rem;
+}
+
+@media (min-width: 1000px) {
+    .carousel-mar {
+        padding-top: 0;
+    }
+}
 
 
 /* Zeroth burgers */
