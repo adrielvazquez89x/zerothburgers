@@ -33,24 +33,25 @@
     background-position: center;
     margin-bottom: 1rem;
 
-    .news-box {
-        background-color: rgba(0, 0, 0, 0.664);
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-       
-        p {
-            @include font-prop ($principalcolor, false, 1.2rem);
-            text-align: center;
+}
 
-        }
+.news-box {
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    p {
+        @include font-prop ($principalcolor, false, 1.2rem);
+        text-align: center;
 
-        input {
-            width: 20rem;
-            height: 2rem;
-        }
+    }
+
+    input {
+        width: 20rem;
+        height: 2.7rem;
     }
 }
 

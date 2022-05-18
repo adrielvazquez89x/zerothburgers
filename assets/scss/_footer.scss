@@ -22,6 +22,7 @@ footer {
     
     h2 {
         @include font-prop ($principalcolor, true, 35px);
+        margin: 0.5rem;
         
         &:hover {
             transition: 0.4s;
@@ -30,6 +31,7 @@ footer {
     }
     h3 {
         @include font-prop ($secondarycolor, true, 0.9rem);
+        margin: 0.5rem;
         padding: 10px;
     }
     li {

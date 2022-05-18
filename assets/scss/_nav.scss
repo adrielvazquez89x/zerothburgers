@@ -9,6 +9,10 @@
     }
 }
 
+.logo h2 {
+    margin: 0;
+}
+
 .navbar-light .navbar-nav
  .nav-link {
     @include font-prop  ($white, true, 1.1rem);

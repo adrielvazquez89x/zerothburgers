@@ -27,6 +27,7 @@ h1, h2, h3 {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
+  margin: 3rem;
 }
 
 a {
@@ -58,7 +59,7 @@ span {
   background-image: radial-gradient(circle, #de6514, #d25d10, #c6560c, #ba4e08, #ae4705);
   padding: 20px;
   box-shadow: 0px 8px 19px -4px rgba(0, 0, 0, 0.62);
-  margin: 10px;
+  margin: 25px;
   border-radius: 3px;
   text-transform: uppercase;
   font-weight: bold;
@@ -96,6 +97,10 @@ span {
 }
 .container-logo img {
   max-width: 45%;
+}
+
+.logo h2 {
+  margin: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -152,7 +157,8 @@ span {
   background-position: center;
   margin-bottom: 1rem;
 }
-.newsletter .news-box {
+
+.news-box {
   background-color: rgba(0, 0, 0, 0.664);
   height: 100%;
   display: flex;
@@ -160,15 +166,15 @@ span {
   align-items: center;
   justify-content: space-evenly;
 }
-.newsletter .news-box p {
+.news-box p {
   color: #FF7217;
   font-weight: normal;
   font-size: 1.2rem;
   text-align: center;
 }
-.newsletter .news-box input {
+.news-box input {
   width: 20rem;
-  height: 2rem;
+  height: 2.7rem;
 }
 
 @media (min-width: 768px) {
@@ -287,6 +293,7 @@ footer {
   color: #FF7217;
   font-weight: bold;
   font-size: 35px;
+  margin: 0.5rem;
 }
 .footer-container h2:hover {
   transition: 0.4s;
@@ -296,6 +303,7 @@ footer {
   color: #333b41;
   font-weight: bold;
   font-size: 0.9rem;
+  margin: 0.5rem;
   padding: 10px;
 }
 .footer-container li {
