@@ -27,7 +27,7 @@ h1, h2, h3 {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
-  margin: 3rem;
+  margin: 2rem;
 }
 
 a {
@@ -55,6 +55,20 @@ span {
   background-color: #FF7217;
 }
 
+.margin-mobile {
+  padding-top: 5.8rem;
+}
+
+@media (min-width: 768px) {
+  .margin-mobile {
+    padding-top: 5.2rem;
+  }
+}
+@media (min-width: 1000px) {
+  .margin-mobile {
+    padding-top: 0;
+  }
+}
 .button, .button-form {
   background-image: radial-gradient(circle, #de6514, #d25d10, #c6560c, #ba4e08, #ae4705);
   padding: 20px;
@@ -91,18 +105,31 @@ span {
 
 /* Site */
 /* Navigation */
+.navbar {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+@media (min-width: 1000px) {
+  .navbar {
+    position: static;
+  }
+}
 .container-logo {
   width: 12rem;
-  padding-left: 5rem;
 }
 .container-logo img {
   max-width: 45%;
 }
 
-.logo h2 {
-  margin: 0;
+@media (min-width: 768px) {
+  .container-logo {
+    padding-left: 2rem;
+  }
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
   font-weight: bold;
@@ -127,6 +154,12 @@ span {
   font-weight: bold;
   font-size: 1.8rem;
   transform: rotate(355deg);
+  margin: 0;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
 }
 
 /* Index */
@@ -174,7 +207,10 @@ span {
 }
 .news-box input {
   width: 20rem;
-  height: 2.7rem;
+  height: 2rem;
+}
+.news-box ::placeholder {
+  padding-left: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -262,6 +298,13 @@ span {
   color: #FFFFFF;
 }
 
+@media (min-width: 768px) {
+  .promo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 /* Menu */
 .mnu-txt h2 {
   color: #333b41;
@@ -293,7 +336,6 @@ footer {
   color: #FF7217;
   font-weight: bold;
   font-size: 35px;
-  margin: 0.5rem;
 }
 .footer-container h2:hover {
   transition: 0.4s;
@@ -303,7 +345,6 @@ footer {
   color: #333b41;
   font-weight: bold;
   font-size: 0.9rem;
-  margin: 0.5rem;
   padding: 10px;
 }
 .footer-container li {
@@ -319,6 +360,22 @@ footer {
   color: #DE6514;
 }
 
+@media (min-width: 768px) {
+  .footer-container {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .gallery {
+    align-items: center;
+  }
+
+  .container-gallery {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
 /* copy */
 .coso {
   display: flex;

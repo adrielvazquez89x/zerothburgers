@@ -1,16 +1,29 @@
 /* Navigation */
 
+.navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+@media (min-width: 1000px) {
+    .navbar {
+        position: static;
+    }
+}
+
 .container-logo {
     width: 12rem;
-    padding-left: 5rem;
-
     img {
         max-width: 45%;
     }
 }
 
-.logo h2 {
-    margin: 0;
+@media (min-width :768px) {
+    .container-logo {
+        padding-left: 2rem;
+    }
 }
 
 .navbar-light .navbar-nav
@@ -20,7 +33,6 @@
     &:hover, &:active {
         color: $secondarycolor;        
     }
-    
  }
 
  .active {
@@ -36,6 +48,12 @@
     h2 {
         @include font-prop ($white, true, 1.8rem);
         transform: rotate(355deg);
+        margin: 0;
         
     }
+}
+
+.social-container {
+    display:flex;
+    justify-content: center;
 }

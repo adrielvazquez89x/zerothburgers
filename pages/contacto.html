@@ -26,8 +26,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light main-color">
             <div class="container-fluid">
-                <div class="container-logo">
-                    <a class="logo" href="../index.html"><img src="../assets/images/logo_final.png" alt="ZEROTH BURGERS">
+                <div class="container-logo mx-auto">
+                    <a class="logo" href="../index.html"><img src="../assets/images/logo_final.png"
+                            alt="ZEROTH BURGERS">
                         <h2>ZEROTH <br> BURGERS</h2>
                     </a>
                 </div>
@@ -36,82 +37,88 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-evenly white" id="navbarNavAltMarkup">
-                    <div class="navbar-nav align-items-center text-uppercase">
+                <div class="collapse navbar-collapse justify-content-between white" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-center text-uppercase mx-auto">
                         <a class="nav-link px-4" aria-current="page" href="../index.html">Inicio</a>
                         <a class="nav-link px-4" href="./promociones.html">Promociones</a>
                         <a class="nav-link px-4" href="./menu.html">Menu</a>
                         <a class="nav-link px-4 active" href="./contacto.html">Contacto</a>
                         <a class="nav-link px-4" href="./nosotros.html">Nosotros</a>
-
-                        <!--Social Media-->
-                        <div class="social-container align-items-center">
-                            <a href="https://www.facebook.com">
-                                <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg"
-                                    class="icon icon-tabler icon-tabler-brand-facebook" width="35" height="50"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path
-                                        d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                                </svg>
-                            </a>
-                            <a href="https://www.instagram.com">
-                                <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg"
-                                    class="icon icon-tabler icon-tabler-brand-instagram" width="35" height="50"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <rect x="4" y="4" width="16" height="16" rx="4" />
-                                    <circle cx="12" cy="12" r="3" />
-                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                                </svg>
-                            </a>
-                        </div> <!-- Social Media end-->
                     </div>
+                    <!--Social Media-->
+                    <div class="social-container">
+                        <a href="https://www.facebook.com">
+                            <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-brand-facebook" width="35" height="50"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com">
+                            <svg class="hvr-buzz-out" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-brand-instagram" width="35" height="50"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <rect x="4" y="4" width="16" height="16" rx="4" />
+                                <circle cx="12" cy="12" r="3" />
+                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                            </svg>
+                        </a>
+                    </div> <!-- Social Media end-->
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <h1>Contactanos!</h1>
+        <h1 class="margin-mobile">Contactanos!</h1>
 
-        <div class="container px-5 my-5 bg-light pt-4 pb-4">
+        <div class="container col-lg-6 px-5 my-5 bg-light pt-4 pb-4">
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="form-floating mb-3">
-                    <input class="form-control" id="nombre" type="text" placeholder="Nombre" data-sb-validations="required" />
+                    <input class="form-control" id="nombre" type="text" placeholder="Nombre"
+                        data-sb-validations="required" />
                     <label for="nombre">Nombre</label>
-                    <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre es obligatorio.</div>
                 </div>
                 <div class="form-floating mb-3">
-                    <input class="form-control" id="email" type="email" placeholder="Email " data-sb-validations="required,email" />
+                    <input class="form-control" id="email" type="email" placeholder="Email "
+                        data-sb-validations="required,email" />
                     <label for="email">Email </label>
-                    <div class="invalid-feedback" data-sb-feedback="email:required">Email is required.</div>
-                    <div class="invalid-feedback" data-sb-feedback="email:email">Email Email is not valid.</div>
+                    <div class="invalid-feedback" data-sb-feedback="email:required">Email es obligatorio.</div>
+                    <div class="invalid-feedback" data-sb-feedback="email:email">Email Email no valido.</div>
                 </div>
                 <div class="form-floating mb-3">
-                    <input class="form-control" id="telefono" type="text" placeholder="Teléfono" data-sb-validations="required" />
+                    <input class="form-control" id="telefono" type="text" placeholder="Teléfono"
+                        data-sb-validations="required" />
                     <label for="telefono">Teléfono</label>
-                    <div class="invalid-feedback" data-sb-feedback="telefono:required">Teléfono is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="telefono:required">Teléfono es obligatorio.</div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label d-block">¿Qué querías decirnos?</label>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" id="sugerencia" type="radio" name="queQueriasDecirnos" data-sb-validations="required" />
+                        <input class="form-check-input" id="sugerencia" type="radio" name="queQueriasDecirnos"
+                            data-sb-validations="required" />
                         <label class="form-check-label" for="sugerencia">Sugerencia</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" id="empleo" type="radio" name="queQueriasDecirnos" data-sb-validations="required" />
+                        <input class="form-check-input" id="empleo" type="radio" name="queQueriasDecirnos"
+                            data-sb-validations="required" />
                         <label class="form-check-label" for="empleo">Empleo</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" id="consulta" type="radio" name="queQueriasDecirnos" data-sb-validations="required" />
+                        <input class="form-check-input" id="consulta" type="radio" name="queQueriasDecirnos"
+                            data-sb-validations="required" />
                         <label class="form-check-label" for="consulta">Consulta</label>
                     </div>
-                    <div class="invalid-feedback" data-sb-feedback="queQueriasDecirnos:required">One option is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="queQueriasDecirnos:required">One option is required.
+                    </div>
                 </div>
                 <div class="form-floating mb-3">
-                    <textarea class="form-control" id="" type="text" placeholder="" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <textarea class="form-control" id="" type="text" placeholder="" style="height: 10rem;"
+                        data-sb-validations="required"></textarea>
                     <label for=""></label>
                     <div class="invalid-feedback" data-sb-feedback=":required">is required.</div>
                 </div>
@@ -119,7 +126,8 @@
                     <div class="text-center mb-3">
                         <div class="fw-bolder">Form submission successful!</div>
                         <p>To activate this form, sign up at</p>
-                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        <a
+                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                     </div>
                 </div>
                 <div class="d-none" id="submitErrorMessage">
@@ -135,7 +143,8 @@
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Calle%20Falsa%20123+(Zeroth%20Burgers)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
                     href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe></div>
 
-        <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+        <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
+            target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     </main>
 
     <Footer>

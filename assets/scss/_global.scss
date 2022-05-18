@@ -20,7 +20,7 @@ h1, h2, h3 {
                 color: $white;
                 text-transform: uppercase;
                 font-weight: bold;
-                margin: 3rem;
+                margin: 2rem;
 
 }
 
@@ -49,4 +49,19 @@ span {
 
 .main-color {
     background-color: $principalcolor;
+}
+
+.margin-mobile {
+    padding-top: 5.8rem;
+}
+@media (min-width: 768px) {
+    .margin-mobile{
+        padding-top: 5.2rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .margin-mobile{
+        padding-top: 0;
+    }
 }

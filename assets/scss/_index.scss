@@ -1,6 +1,5 @@
 /* Index */
 
-
 /* Zeroth burgers */
 .zeroth {
     background-image: url(../images/bg1-1.jpg);
@@ -51,11 +50,14 @@
 
     input {
         width: 20rem;
-        height: 2.7rem;
+        height: 2rem;
+    }
+    ::placeholder {
+        padding-left: 1rem;
     }
 }
 
-@media (min-width : 768px) {    // este mediaquery no anda.
+@media (min-width : 768px) {    
     .news-box {
         flex-direction: row;
 
