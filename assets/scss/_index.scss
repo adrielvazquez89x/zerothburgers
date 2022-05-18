@@ -1,4 +1,13 @@
 /* Index */
+.carousel-mar {
+    padding-top: 6rem;
+}
+
+@media (min-width: 1000px) {
+    .carousel-mar {
+        padding-top: 0;
+    }
+}
 
 
 /* Zeroth burgers */
@@ -55,7 +64,7 @@
     }
 }
 
-@media (min-width : 768px) {    // este mediaquery no anda.
+@media (min-width : 768px) {    
     .news-box {
         flex-direction: row;
 

@@ -91,18 +91,32 @@ span {
 
 /* Site */
 /* Navigation */
+.navbar {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+@media (min-width: 1000px) {
+  .navbar {
+    position: static;
+  }
+}
 .container-logo {
   width: 12rem;
-  padding-left: 5rem;
 }
 .container-logo img {
-  max-width: 45%;
+  max-width: 50%;
+  padding-left: 1rem;
 }
 
-.logo h2 {
-  margin: 0;
+@media (min-width: 768px) {
+  .container-logo {
+    padding-left: 2rem;
+  }
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
   font-weight: bold;
@@ -120,7 +134,6 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
 }
 .logo h2 {
   color: #FFFFFF;
@@ -129,7 +142,21 @@ span {
   transform: rotate(355deg);
 }
 
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* Index */
+.carousel-mar {
+  padding-top: 6rem;
+}
+
+@media (min-width: 1000px) {
+  .carousel-mar {
+    padding-top: 0;
+  }
+}
 /* Zeroth burgers */
 .zeroth {
   background-image: url(../images/bg1-1.jpg);
@@ -262,6 +289,13 @@ span {
   color: #FFFFFF;
 }
 
+@media (min-width: 768px) {
+  .promo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 /* Menu */
 .mnu-txt h2 {
   color: #333b41;
@@ -319,6 +353,22 @@ footer {
   color: #DE6514;
 }
 
+@media (min-width: 768px) {
+  .footer-container {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .gallery {
+    align-items: center;
+  }
+
+  .container-gallery {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
 /* copy */
 .coso {
   display: flex;
@@ -340,23 +390,6 @@ footer {
 
 /* end copy */
 @media (min-width: 768px) {
-  /*footer*/
-  .footer-container {
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .gallery {
-    align-items: center;
-  }
-
-  .container-gallery {
-    display: flex;
-    gap: 0.5rem;
-  }
-
-  /* Promo */
   .promo-container {
     display: flex;
     flex-direction: row;
