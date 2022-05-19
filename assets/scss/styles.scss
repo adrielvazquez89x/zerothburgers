@@ -12,34 +12,3 @@
 @import "foodmenu";
 @import "_footer";
 
-
-
-
-
-
-@media (min-width :768px) {
-
-    /*footer*/
-    .footer-container  {
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .gallery {
-        align-items: center;
-    }
-    .container-gallery {
-        display: flex;
-        gap: 0.5rem;
-    }
-
-    /* Promo */ 
-
-    .promo-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-    }
-
-}
