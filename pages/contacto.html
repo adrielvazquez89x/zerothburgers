@@ -91,7 +91,7 @@
                     <div class="invalid-feedback" data-sb-feedback="email:email">Email: Email no valido.</div>
                 </div>
                 <div class="form-floating mb-3">
-                    <input class="form-control" id="telefono" type="text" placeholder="Teléfono"
+                    <input class="form-control" id="telefono" type="number" placeholder="Teléfono"
                         data-sb-validations="required" />
                     <label for="telefono">Teléfono</label>
                     <div class="invalid-feedback" data-sb-feedback="telefono:required">Teléfono es obligatorio.</div>
@@ -113,19 +113,18 @@
                             data-sb-validations="required" />
                         <label class="form-check-label" for="consulta">Consulta</label>
                     </div>
-                    <div class="invalid-feedback" data-sb-feedback="queQueriasDecirnos:required">One option is required.
+                    <div class="invalid-feedback" data-sb-feedback="queQueriasDecirnos:required">Elija una opción.
                     </div>
                 </div>
                 <div class="form-floating mb-3">
                     <textarea class="form-control" id="" type="text" placeholder="" style="height: 10rem;"
                         data-sb-validations="required"></textarea>
                     <label for=""></label>
-                    <div class="invalid-feedback" data-sb-feedback=":required">is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback=":required">Campo requerido</div>
                 </div>
                 <div class="d-none" id="submitSuccessMessage">
                     <div class="text-center mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
-                        <p>To activate this form, sign up at</p>
+                        <div class="fw-bolder">Mensaje enviado!</div>
                         <a
                             href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                     </div>
@@ -134,7 +133,7 @@
                     <div class="text-center text-danger mb-3">Error sending message!</div>
                 </div>
                 <div class="d-grid">
-                    <button class="button-form hvr-fade" id="submitButton" type="submit">Enviar</button>
+                    <button class="btn button-form hvr-fade disabled" id="submitButton" type="submit">Enviar</button>
                 </div>
             </form>
         </div>
