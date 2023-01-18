@@ -1,27 +1,30 @@
+# Zeroth Burgers
+
+## Proyecto realizado en CoderHouse
+
 Zeroth Burgers es un sitio web de una pyme ficticia cuya actividad es la producción de hamburguesas.
 
-## SEO
+## Características
 
-Para la optimización del SEO realicé las siguientes modificaciones:
+El sitio fue desarrollado solo con HTML y CSS. Para diseño y maquetación del sitio se utilizaron Bootstrap y SASS. 
 
-- Agregué keywords relacionadas a la actividad del sito. Algunas de estas son por ej: Zeroth Burgers, hamburguesas, pollo frito delivery, Tigre, Nordelta entre otras.
-- Agregué descripciones en cada página del sitio. 
-- Agregué títulos a cada página respetando el contenido de la misma.
-- Optimicé las imágenes reduciéndoles el peso sacrificando lo menos posible la calidad de estas.
-- Completé los atributos "alt" de las imágenes con palabras relacionadas al contenido de estas y al sitio.
-- Agregué contenido al index con h1 ya que no estaba conforme con lo que tenia anteriormente.
+El objetivo era poder desarrollar un sitio navegable, responsive, y cuyo diseño pudiera cumplir con las espectativas de cualquier potencial cliente. 
 
+## SEO  
 
-## Tecnologias web utilizadas
+Se optimizaron las palabras clave para optimizar los resultados en navegadores.
 
--Html, CSS, SASS, JavaScript.
+## Herramientas
 
-### Framework utilizado:
--Bootstrap 5
+-Html, CSS, SASS, Bootstrap, JavaScript.
 
+## Controlador de versiones
 
-## Contribuciones
-Todas las contribuciones para el desarrollo de este sitio son bienvenidas. Por favor, realizarlo adecuadamente.
+Git y Github
 
-## Licencia
-Adriel Vazquez
+## Datos
+- Curso: Desarrollo web
+- Comisión: 36900
+- Profesor: Maximiliano Rosanda
+- Alumno: Adriel Vazquez
+- Proyecto: https://adrielvazquez89x.github.io/zerothburgers/
